@@ -1,0 +1,19 @@
+a1 = input('Ingrese nombre arbitro 1: ')
+a2 = input('Ingrese nombre arbitro 2: ')
+a3 = input('Ingrese nombre arbitro 3: ')
+a4 = input('Ingrese nombre arbitro 4: ')
+
+print(a1)
+print(a2)
+print(a3)
+print(a4)
+
+l1 = input('Ingrese ubicacion del lugar: ')
+print(l1)
+
+h1 = input('Ingrese horario: ')
+print(h1)
+
+
+
+print(f"Los arbitros son {a1,a2,a3,a4}. Se jugara en la cancha {l1}. El horario es: {h1}")
